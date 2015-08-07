@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.download_Box{ background:url(../images/bg.jpg) no-repeat center; height:500px; width:100%;}
+.appDownload{ overflow:hidden; text-align:left;}
+.appDownload p.tit{ font-size:72px; color:#ffffff; font-weight: bold; margin-top:68px; margin-bottom:24px;}
+.btnBox { margin-top:60px;}
+.btnBox .btn{ margin-right:10px;}
+.btnBox a{ display:block; width:250px; height:62px; margin-bottom:5px;}
+.btnBox a.iphoneDownload{ background:url(../images/btn.png) 0px 0px no-repeat;}
+.btnBox a.iphoneDownload:hover{background:url(../images/btn.png) 0px -92px;}
+.btnBox a.ipadDownload{ background:url(../images/btn.png) 0px -184px no-repeat;}
+.btnBox a.ipadDownload:hover{background:url(../images/btn.png) 0px -276px;}
+.btnBox a.androidDownload{ background:url(../images/btn.png) 0px -368px no-repeat;}
+.btnBox a.androidDownload:hover{background:url(../images/btn.png) 0px -460px;}

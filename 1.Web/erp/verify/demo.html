@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Page Title</title>
+</head>
+
+<body>
+<div class="field">
+	<label class="label"><span class="red">*</span>验证码：</label>
+	<input type="text" maxlength="6" autocomplete="off" tabindex="9" class="field-text" name="sso_verify" id="sso_verify"/>
+	<span id="lblMsgVerify" class="reg_tip"></span>
+	<div id="code_verify" class="clearfix">
+	<div id="verify"></div><span id="verifyText" class="ftx23" >&nbsp;&nbsp;看不清？<a id="changeV" class="flk13" href="javascript:void(0)">换一张</a></span>
+	</div>
+</div>
+
+
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript">
+
+$(function(){
+	var input = $('#verify');
+	function showVerify(){
+		var date = new Date();
+		var ttime = date.getTime();
+		var URL = 'http://erp.hsh.com/verify/img.php?t='+ttime;
+		img = ' <object id="verifyimg" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="160" height="60"> <param name="movie" value="'+URL+'"> <param name="quality" value="high"> <param name="wmode" value="transparent"> <embed src="'+URL+'" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="160" height="60" wmode="transparent"></embed> </object>';
+		$('#verifyimg').remove();
+		input.append( img );
+		return false;
+	}
+	showVerify();
+	$("#changeV").click(function(){
+		showVerify();
+	});
+});
+</script>
+</body>
+</html>

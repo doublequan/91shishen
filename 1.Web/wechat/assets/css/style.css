@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+body,html{
+
+	height: 100%;
+}
+
+html, html a{
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+body{
+	background: url(../images/loading.gif) center center no-repeat;
+}
+
+.white {
+    color: white;
+}
+.inner {
+    padding-top: 200px;
+}
+
+h1 {
+    font-family: "Microsoft JhengHei";
+    font-weight: 600;
+    line-height: 1.2em;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 0.83em 0;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+}
+
+a:active, a:hover {
+    outline: 0 none;
+}
+
+.home{
+	background: url(../images/heroshot.png) no-repeat center center;
+	-webkit-background-size: cover; 
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover; 
+	padding: 25px 0 200px 0; 
+	height: 100%;
+	overflow: hidden;
+}
+
+.home h1 { font-size: 42px; letter-spacing: 8px; margin: 10px; }
+.home h1 span { color: #a1a9b0; display: inline-block; }
+.home p { letter-spacing: 1px; }
+
+.learn-more-btn { border-bottom: 2px solid #0093cb; padding: 15px 0px; color: #333; text-transform: uppercase; letter-spacing: 1px; display: inline-block; margin: 60px 0 0; font-size: 16px;}
+
+.home .learn-more-btn { border: 1px solid #fff; padding: 20px 40px; color: #fff; border-radius: 3px;}
+.learn-more-btn:hover, .learn-more-btn:focus {color: #0093cb; }
+.home .learn-more-btn:hover, .home .learn-more-btn:focus {opacity: 1; border-color: #0093cb; color: #fff; }

@@ -1,0 +1,220 @@
+.Ucenter {text-align: left;}
+.Ucenter .leftnav {width: 190px; float: left;display: inline; border: 1px solid #d4d4d4; }
+.myintro .title{ background: #f4f4f4; height: 38px; line-height: 38px; color: #c00017;padding: 0 15px;font-size: 14px; font-weight: bold;border-bottom: 1px solid #d4d4d4}
+.myintro .title em{font-size: 12px; color: #999; margin-left: 5px; }
+.myintro .my {padding:15px;}
+.myintro .my img {float:left;}
+.myintro .my .link { margin-left: 75px; line-height: 24px; overflow:hidden;}
+.myintro .my .link a { display: block; margin-bottom: 10px; text-decoration: underline}
+.Ucenter .leftnav dt { background: #f4f4f4; height: 38px; line-height: 38px; color: #000;padding: 0 15px;font-size: 14px; font-weight: bold;border-bottom: 1px solid #d4d4d4;border-top: 1px solid #d4d4d4}
+.Ucenter .leftnav dd {padding: 5px 15px; font-size: 14px; color: #000; zoom:1;overflow:hidden}
+.Ucenter .leftnav dd ul { overflow: hidden;zoom:1; }
+.Ucenter .leftnav dd ul li { height: 42px; line-height: 42px;  border-bottom: 1px dotted #d4d4d4; margin-bottom: -1px; overflow: hidden; zoom:1}
+.Ucenter .leftnav dd li a{color: #000; display: block; zoom:1}
+.Ucenter .leftnav dd li a:hover{color: #cc0000}
+.Ucenter .leftnav dd li.cur, .Ucenter .leftnav dd li.cur a { color: #ffa628; font-weight: bold}
+.Ucenter .leftnav dd li.cur span{float: right; }
+.mylist { margin-left: 200px;}
+.mylist .title {height: 40px; line-height: 40px; font-size: 14px; font-weight: bold; color: #000; border-bottom: 2px solid #f5f5f5; margin-bottom: 5px;}
+.mylist .title span {float:right; font-size: 12px; font-family: "\5B8B\4F53";font-weight: 100}
+.personal{padding:12px 0;border: 1px solid #d4d4d4;height: 105px; overflow: hidden}
+.personal table {width: 100%; border-collapse: collapse; border-spacing: 0; margin-left: -1px;}
+.personal td{ border-left: 1px solid #d4d4d4; text-align: center; height: 105px; font-size: 12px; line-height: 22px;width: 25%;vertical-align: middle }
+.personal b { font-weight: bold; font-size: 14px;}
+.msg { background: #fffae1; height: 40px; line-height: 40px; color: #6b6b6b;padding:0 15px;}
+.msg a{ color: #333;}
+.msg a:hover{ color: #cc0000}
+
+.sp_list table {width: 100%; border-collapse: collapse; border-spacing: 0; font-size: 14px; border:1px solid #d4d4d4 }
+.sp_list th{text-align: center;line-height: 22px; background: #e8e8e8; font-weight: bold;padding:5px; border: 1px solid #d7d7d7}
+.sp_list th.thA{width: 475px}
+.sp_list th.thB{width: 170px}
+.sp_list th.thC{width: 160px}
+.sp_list th.thG{width: 100px}
+.sp_list th.thH{width: 320px}
+.sp_list .dd { background: #f4f4f4; height: 40px; line-height: 40px;padding:0 15px}
+.sp_list .dd .t { float: right;}
+.sp_list .tp {padding:10px; overflow: hidden; text-align: left}
+.sp_list .tp img{ margin-right: 10px;border:1px solid #f4f4f4;width:100px; height:100px}
+.sp_list .tp a:hover img{ border: 1px solid #d3d3d3}
+.sp_list .tp2 {padding:10px; text-align: left; clear: both; height: 100px}
+.sp_list .tp2 img {float:left;border: 1px solid #f4f4f4;width:100px; height:100px;}
+.sp_list .tp2 .tpl {margin-left: 110px;}
+.sp_list .tp2 h2 {font-size: 14px; color: #333; height: 70px}
+.sp_list tr.bd td{border-left:1px solid #d4d4d4; background: #fff; text-align: center; font-size: 14px;}
+.sp_list tr.bd td.lh16 { line-height: 38px}
+.mypage{text-align: right; font-size: 14px; font-family: "\5B8B\4F53"; color: #4d4d4d;padding:10px 0; font-size: 14px;}
+.mypage a{color: #4d4d4d; margin-left: 10px;display: inline-block; vertical-align: middle;height: 28px; line-height: 28px;}
+.mypage a:hover{color: #cc0000; }
+.mypage .page_number.cur{width:28px; background: #eaeaea;border-radius: 14px; text-align: center }
+
+.myhistory .title{ height: 40px; line-height: 40px; font-size: 14px; font-weight: bold; color: #000; border-bottom: 2px solid #f5f5f5; margin-bottom: 15px; }
+.myhistory .history {position: relative;}
+.myhistory .history a.prev,.myhistory .history a.next{ position: absolute;width: 40px; height: 90px; background:#f2f2f2; z-index: 2;top:45px}
+.myhistory .history a.prev em,.myhistory .history a.next em { display: block; height: 22px; margin-top: 35px;text-indent: -99em; overflow: hidden; background: url("../images/icon.gif") no-repeat;}
+.myhistory .history a.prev {left:0}
+.myhistory .history a.prev em { background-position: 0 -219px ;}
+.myhistory .history a.prev:hover em { background-position: 0 -242px ;}
+.myhistory .history a.next {right:0}
+.myhistory .history a.next em { background-position: 0 -264px ;}
+.myhistory .history a.next:hover em { background-position: 0 -286px ;}
+
+.myhistory .sbox{width: 890px; margin: 0 auto; overflow: hidden}
+.myhistory .sbox ul {width: 105%;}
+.myhistory .sbox ul li {width: 170px; margin-right: 10px;float: left; display: inline; overflow: hidden; line-height: 22px;}
+.myhistory .sbox ul li img{border:1px solid #e0e0e0; margin-bottom: 5px;}
+.myhistory .sbox ul li em{color: #ee3c3c; font-weight: bold; font-family: "arial"}
+
+.address table {width: 100%; border-collapse: collapse; border-spacing: 0; font-size: 14px; border:1px solid #d4d4d4; color: #6b6b6b; line-height: 20px;}
+.address table td {padding:20px;border:1px solid #d4d4d4;}
+.address table td.w180 {width: 180px; text-align: center;}
+.address table td .edit a.btn{ height: 28px; width: 130px; margin: 5px auto 0; font-size:14px; text-align: center;border-radius: 3px; background: #4c4c4c; display: block; color: #fff; line-height: 28px}
+.address table td .edit a.btn.default{ background: none; color: #999}
+.address .add { background: #f4f4f4; padding: 22px;}
+.address .add ul li {padding-bottom: 15px; height:30px; line-height: 30px; }
+.address .add ul li label{ float:left; width: 85px; text-align: right;padding-right: 10px;}
+.address .add ul li input { height: 26px; padding: 2px 5px; border: 1px solid #d4d4d4;width:140px;outline: none}
+.address .add ul li input.name {width:240px; }
+.address .add ul li input.dq {width:380px; }
+.address .add ul li select {height: 32px; padding: 2px 5px; border: 1px solid #d4d4d4;width:140px; vertical-align: middle; color:#666}
+.address .add ul li span { margin-left: 15px; background: url("../images/icon.gif") no-repeat 0 -325px;padding-left: 15px;zoom:1; color: #999}
+.address .add ul li input.tj {border: none; width: 78px; background: #4c4c4c; color: #fff; margin-left:95px; cursor: pointer; border-radius: 3px}
+
+.favorite .flist table{width: 100%; border-collapse: collapse; border-spacing: 0; font-size: 14px; border:1px solid #d4d4d4; color: #6b6b6b; line-height: 20px;}
+.favorite .flist td {padding:20px;border:1px solid #d4d4d4; text-align: center;vertical-align: middle;border: 1px solid #d4d4d4;font-size: 14px;}
+.favorite .flist th{text-align: center; height: 38px; line-height: 38px; background: #e8e8e8; border: 1px solid #d4d4d4;vertical-align: middle;}
+.favorite .flist th.thA{text-align: left;padding-left: 5px}
+.favorite .flist td.tdA{width: 65px;padding:0; }
+.favorite .flist td.tdB{width: 410px; text-align: left;  }
+.favorite .flist td.tdB .pt div{float:left; margin-right: 15px;}
+.favorite .flist td.tdB .pt div img{border:1px solid #f4f4f4;width:100px; height:100px;}
+.favorite .flist td.tdB .pt a:hover img{ border: 1px solid #d3d3d3}
+.favorite .flist td.tdB .pt h2{ font-size: 14px;}
+.favorite .flist td.tdC{width: 100px; }
+.favorite .flist td.tdD{width: 120px; }
+.favorite .flist td.tdE{ line-height: 38px }
+
+.ticket .t_tab{ height: 41px;border-bottom:1px solid #d4d4d4;}
+.ticket .t_tab ul li{ float: left; display: inline; width:125px; border:1px solid #fff;border-bottom-color: #d4d4d4; text-align: center; height: 40px; line-height: 40px; color:#000;font-size: 12px}
+.ticket .t_tab ul li.cur{border:1px solid #d4d4d4;border-bottom-color: #fff; font-weight: bold }
+.ticket .contA table{width: 100%; border-collapse: collapse; border-spacing: 0; font-size: 14px; border:1px solid #d4d4d4; color: #6b6b6b; line-height: 20px;}
+.ticket .contA th { height: 40px; text-align: center; background: #f4f4f4;border: 1px solid #d4d4d4; font-size: 14px; font-weight: bold}
+.ticket .contA td { text-align: center; font-size: 14px;padding:20px;border: 1px solid #d4d4d4;}
+.ticket .contA td.tdA{width:180px }
+.ticket .contA td.tdB{width:120px; text-align: left }
+.ticket .contA td.tdC{width:80px }
+.ticket .contA td.tdD{width:170px }
+.ticket .contA td.tdE{width:80px }
+.ticket .contA td.tdG{width:85px }
+.ticket .contA td.tdF{ line-height: 26px}
+
+.myinfo .info{padding-top: 15px}
+.myinfo .info .left {padding: 0 30px; text-align: center}
+.myinfo .info .left img{ display: block; margin-bottom: 15px;}
+.myinfo .info .left a{ text-decoration: underline}
+.myinfo .info .center { width: 710px; border-left: 1px solid #d4d4d4;padding-left:20px; padding-bottom: 20px}
+.myinfo .info .center ul li { height: 30px;padding-bottom: 25px; font-size: 14px; color: #999}
+.myinfo .info .center ul li input.tpa { height: 24px; padding: 2px 5px; border: 1px solid #d4d4d4;width: 195px; vertical-align: middle;outline: none }
+.myinfo .info .center ul li input.ra {margin: -2px 2px 0 0;outline: none}
+.myinfo .info .center ul li label {width: 85px; float: left; text-align: right;padding-right:10px; line-height: 30px;}
+.myinfo .info .center ul li input.tpb {margin-left: 95px; width: 78px; height: 30px; line-height: 30px; border-radius: 2px; background: #4c4c4c; color: #fff; border: 1px solid #4c4c4c; cursor: pointer;font-size: 14px;outline: none}
+
+
+.password .pass{ width: 600px; margin: 0 auto; padding-top: 80px}
+.password .pass ul span { line-height:30px; margin-left:10px; color: #999}
+.password .pass ul li {height: 30px; line-height:30px;padding-bottom: 10px; font-size: 14px; color: #999}
+.password .pass ul li input { height: 24px; padding: 2px 5px; border: 1px solid #d4d4d4;width: 195px; vertical-align: middle }
+.password .pass ul li label {width: 85px; float: left; text-align: right;padding-right:10px;outline: none}
+.password .pass ul li input.tpb, .password .pass ul li input.tpb2, .czform li input.tpb, .czform li input.tpb2{margin-left: 95px; width: 78px; height: 30px; border-radius: 2px; background: #4c4c4c; color: #fff; border: 1px solid #4c4c4c; cursor: pointer; font-size: 14px;}
+.password .pass ul li input.tpb2 { margin-left:20px;}
+.czform li input.tpb2 { margin-left:10px;}
+.mail .mailbox ul li input.tpb {margin-left: 95px; width: 78px; height: 30px;border-radius: 2px; background: #4c4c4c; color: #fff; border: 1px solid #4c4c4c; cursor: pointer; font-size: 14px;outline: none}
+
+.mail .mailbox{ width: 320px; margin: 0 auto; padding-top: 80px}
+.mail .mailbox ul li {height: 30px;padding-bottom: 15px; font-size: 14px; color: #999}
+.mail .mailbox ul li input { height: 24px; padding: 2px 5px; border: 1px solid #d4d4d4;width: 195px; vertical-align: middle;outline: none }
+.mail .mailbox ul li label {width: 85px; float: left; text-align: right;padding-right:10px; line-height: 30px;}
+.mail .mailbox ul li input.tpb {margin-left: 95px; width: 78px; height: 30px; border-radius: 3px; background: #4c4c4c; color: #fff; border: 1px solid #4c4c4c; cursor: pointer; font-size: 14px;outline: none}
+.mail .mail_tip { padding:15px; line-height: 22px; background: #f5f5f5; color: #262626; margin-top: 50px; border-radius: 5px}
+
+.mysafe .sbox{ border: 1px solid #d4d4d4;padding:10px 30px; overflow: hidden; zoom:1}
+.mysafe .sbox dl {border-bottom: 1px solid #d4d4d4; height: 30px; overflow: hidden; padding: 30px 0 35px; line-height:30px;overflow: hidden; zoom:1;}
+.mysafe .sbox dt em{ width: 31px;height: 30px; display: inline-block; vertical-align: middle; background: url("../images/icon.gif") no-repeat; margin-right: 20px;}
+.mysafe .sbox dt em.true{ background-position: 0 -376px}
+.mysafe .sbox dt em.false{ background-position: 0 -344px}
+.mysafe .sbox dt { font-size: 24px; color: #666; width: 250px;float: left; display: inline}
+.mysafe .sbox dd.da {width: 560px;float: left; display: inline}
+.mysafe .sbox dd.db {width: 80px; text-align: center;float: right; display: inline}
+.mysafe .sbox dd.db a{ background: #4c4c4c; height: 28px; line-height: 28px; margin: 5px auto 0; color: #fff; display: block; border-radius: 5px;font-size: 14px; text-decoration:none;}
+.mysafe .sbox .tip{ padding: 20px 0 10px; line-height: 22px;}
+
+.gwc_top{ height: 70px; padding: 10px 0; line-height: 70px; text-align: right}
+.gwc_top .right { text-align: right;}
+.gwc_top .right a { color: #333; font-size: 12px; display: inline-block;vertical-align: middle}
+.gwc_top .right a:hover {color: #cc0000}
+.gwc_top .right a.select em{display: inline-block;}
+.gwc_top .right span.phone em{ display: inline-block;width: 16px; height: 15px; background: url("../images/icon.gif") no-repeat -23px -30px; vertical-align: middle; margin-right: 3px}
+.gwc_top .right span.phone{ margin-left: 10px}
+.gwc_top {border-bottom: 3px solid #eee }
+
+.chongzhi{ height: 70px; padding: 10px 0; line-height: 70px; text-align: right}
+.chongzhi .right { text-align: right;}
+.chongzhi .right a { margin-left: 10px; color: #333; font-size: 12px; display: inline-block;vertical-align: middle}
+.chongzhi .right a:hover {color: #cc0000}
+.chongzhi .right a.select em{display: inline-block;}
+.chongzhi .right span.phone em{ display: inline-block;width: 16px; height: 15px; background: url("../images/icon.gif") no-repeat -23px -30px; vertical-align: middle; margin-right: 3px}
+.chongzhi .right span.phone{ margin-left: 10px}
+.chongzhi {border-bottom: 3px solid #eee }
+.cz_zt{text-align: left; height:34px;padding:30px 0 40px}
+.cz_zt .right {width: 390px;  position: relative;padding-top: 22px; text-align: center }
+.cz_zt .right .bg {width:366px; height: 14px; position: absolute;top:5px; right: 0;z-index: 2;background: url("../images/img30.jpg") no-repeat; }
+.cz_zt .right .w {background: url("../images/img30.jpg") no-repeat ;width: 100%; height: 14px;}
+.cz_zt .right span {text-align: center; color: #999; font-size: 12px;}
+.cz_zt .right span.tp1 { float: left;}
+.cz_zt .right span.tp2 { margin-left: 3px;}
+.cz_zt .right span.tp3 { float: right}
+.cz_zt .right.step1 span.tp1{ color: #333}
+.cz_zt .right.step2 span.tp2{ color: #333}
+.cz_zt .right.step3 span.tp3{ color: #333}
+.cz_zt .right.step1 .w{background-position: 0 0}
+.cz_zt .right.step2 .w{background-position: 0 -14px}
+.cz_zt .right.step3 .w{background-position: 0 -28px}
+
+.cz_box{text-align: left; line-height: 28px; border:1px solid #d4d4d4}
+.cz_box .cz_t{ line-height: 50px; background: #e8e6e6; color: #262626; font-size: 18px;padding-left: 22px;}
+.cz_box .czform{padding:20px; color: #262626; margin:0 auto;}
+.cz_box .czform ul {padding-left: 60px;}
+.cz_box .czform li{ height: 36px; line-height: 36px; overflow: hidden;padding-bottom:10px;}
+.cz_box .czform li span{width: 75px; float: left; display: inline}
+.cz_box .czform li.tip { height: auto; line-height: 28px}
+.cz_box .czform .in_text, .cz_box .czform .in_text2 {border: 1px solid #d4d4d4; height: 18px; line-height: 18px; padding: 2px 5px; width: 60px; text-align:center; }
+ .cz_box .czform .in_text2 { width:150px;}
+.cz_box .czform li p.t1{ color: #999; padding-left:10px;}
+.cz_box .czform li p.t2 i{ color: #6b6b6b; background: #fffae1; padding: 4px 15px; font-style: normal;}
+.cz_box .czform li p.t3{ padding-top: 10px;}
+.cz_box .czform li .cz_submit{width: 78px; height: 30px; border-radius: 3px; background: #4c4c4c; color: #fff; border: 1px solid #4c4c4c; cursor: pointer; font-size: 14px;outline: none}
+.cz_box .cztip{ margin: 20px; border: 1px solid #ffc169; background: #fffae1;padding:10px 20px; color: #333}
+.cz_box .zhifu{ padding:20px;font-size: 14px; color: #262626; line-height: 32px;}
+.cz_box .zhifu .tip{ font-size: 14px; color: #262626; line-height: 32px;}
+.cz_box .zhifu .banklist { border-top: 1px dotted #7e7e7e; margin-top: 15px; padding-top: 15px;}
+.cz_box .zhifu .banklist li { height: 40px; overflow: hidden; float: left; display: inline; width: 230px; padding-bottom: 10px;}
+.cz_box .zhifu .banklist li img {border:1px solid #bbbbbb}
+.cz_box .zhifu .banklist ul {padding-top: 15px; padding-bottom: 20px;}
+.zhifu_submit{ height: 30px; border-radius: 3px; background: #4c4c4c; color: #fff; border: 1px solid #4c4c4c; cursor: pointer; font-size: 14px;outline: none; padding:0 20px}
+.aboutus{font-size:14px; line-height: 28px; color: #666}
+.aboutus p{ text-indent: 2em; padding-bottom: 5px;}
+
+.newslist{overflow: hidden}
+.newslist ul{ border:1px solid #d4d4d4}
+.newslist ul li.th { height: 38px; font-size: 14px; color: #000; background: #f4f4f4; line-height: 38px;font-weight: bold;margin: 0;list-style: none}
+.newslist ul li.th span.ty1 {padding-left:20px; text-align: left}
+.newslist ul li{ position: relative; height: 56px; line-height: 56px; overflow: hidden; line-height: 56px; margin: 0 20px; border-bottom: 1px solid #d4d4d4; margin-bottom: -1px; color: #333; font-size: 14px;list-style: inside;  list-style-type: disc}
+.newslist ul li span{ position: absolute; height: 56px;top:0; text-align: center}
+.newslist ul li span.ty1{width: 620px;left:0}
+.newslist ul li span.ty2{width: 136px;left:580px}
+.newslist ul li span.ty3{width: 130px;left:805px}
+.newslist ul li.th span.ty1{width: 620px;left:0}
+.newslist ul li.th span.ty2{width: 136px;left:600px}
+.newslist ul li.th span.ty3{width: 130px;left:825px}
+.newslist ul li span.ty1{width: 620px;left:0;padding-left:15px; text-align: left }
+

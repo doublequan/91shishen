@@ -1,0 +1,136 @@
+/* 全局CSS定义 */
+body{font-family:"\5FAE\8F6F\96C5\9ED1","\5B8B\4F53";text-align:center;margin:0 auto;padding:0;background:#FFF;font-size:12px;color:#666;}
+body > div{text-align:center;margin-right:auto;margin-left:auto;} 
+div,form,ul,ol,li,span,p,dl,dd,dt{margin:0;padding:0;border:none;}
+img,a img{border:none;margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{margin:0;padding:0;font-size:12px;font-weight:normal;overflow:hidden;}
+ul,ol,li{list-style:none}
+img,input,textarea{vertical-align:middle}
+table,td,input{font-size:12px;padding:0; outline: none}
+em,i{font-style: normal}
+/* 默认链接颜色 */
+a{outline-style:none;color:#333;text-decoration:none}
+a:hover{color:#c00;text-decoration:underline;}
+/*清除链接虚框*/
+/*a,area {blr:expression(this.onFocus=this.blur()) }  for IE 
+:focus {-moz-outline-style: none; }  for Firefox   
+*/
+/* 通用属性 */
+.left,.lc,.c,.center,.cc,.fl{float:left;display:inline}
+.right,.rc,.r{float:right;display:inline}
+.area {width:1190px; margin:0 auto;}
+/*.clear{clear:both;font-size:1px;width:1px;height:0;visibility:hidden;margin-top:0px!important;*margin-top:-1px;line-height:0}*/
+.clearfix,.area,.pt{zoom:1}
+.pt:after,.area:after,.clearfix:after,.clear:after{content:".";display:block;visibility:hidden;height:0;clear:both;}
+.mt20{ margin-top: 20px;}
+.mt10{ margin-top: 10px;}
+/*标准头尾*/
+body {background: #fff;}
+.topnav{ height: 29px;  background: url("../images/icon.gif") repeat-x; font-size: 12px; color: #333; zoom: 1;}
+.topnav .area{position: relative; text-align: left; line-height: 29px;}
+.topnav .flt{float:left; padding-right: 20px;}
+.topnav .welcome {color: #999;}
+.topnav .welcome span { display: inline-block; vertical-align: middle; border:1px solid #dbdbdb;background: #fff; padding:0 5px; height: 16px; line-height: 16px; margin:-2px 5px 0 5px; position: relative;z-index:2; background:#fff}
+.topnav .welcome span em { display: inline-block; width: 5px; height:3px; overflow: hidden; background: url("../images/icon.gif") no-repeat 0 -30px; margin-bottom: 3px;}
+.topnav .welcome span.cur {border-bottom:none;}
+.topnav ul.fr { position: absolute;top:0; right:0;}
+.topnav ul.fr li { height: 29px; line-height: 29px;padding-left: 20px; float:left; display: inline}
+.topnav ul.fr li.phone em{ background: url("../images/icon.gif") no-repeat -23px -30px; width: 16px; height: 15px; display: inline-block; vertical-align: middle; margin-bottom: 2px; margin-right: 7px;}
+.city_select{position:absolute;left:-1px; top:16px;width:100px; border:1px solid #dbdbdb; z-index:1;padding:5px 0 ; text-align: left; background: #fff; display: none}
+.city_select li,.city_select .title {padding:0 5px;}
+.city_select ul { padding-top:5px;line-height:20px;}
+.city_select li:hover {background:#333}
+
+/*logo*/
+.logo{padding: 20px 0 15px; text-align: left; height:75px; }
+.logo .logo2014{ float:left; margin-right: 50px}
+.hd-so {width: 540px; padding-left: 28px; padding-top: 5px; float: right;}
+.hd-so-bor {height: 40px;border:1px solid #c00017; border-radius: 5px;}
+.hd-so-bor .inp1 { width: 390px; height: 34px; line-height: 34px; background: none;border: 0;padding:3px 0 0 35px; font-family:"\5FAE\8F6F\96C5\9ED1","\5B8B\4F53"; font-size: 14px; background: url("../images/icon.gif") no-repeat 5px -53px;}
+.hd-so-bor .btn1 { height: 40px; position: absolute; width:120px; font-family:"\5FAE\8F6F\96C5\9ED1","\5B8B\4F53"; font-size: 18px; right: 0; top:0;border: none; background: #c00017; color: #fff;}
+.hd-so-hot {padding: 8px 0 0 0;}
+.hd-so-hot a { color: #666; margin-right: 5px;}
+.hd-so-hot a:hover{text-decoration:underline; color: #cc0000}
+.abs,.pa{position: absolute;}
+.rel,.pr {position: relative;}
+.logo .service{float:right;}
+
+.nav{ background: #c00017; height: 40px; line-height: 40px;color: #fff; font-size: 14px; }
+.nav .area {position: relative;}
+
+.nav .leftnav{ width: 140px; text-align: center;position:relative; }
+.nav .leftnav .fenlei {color: #fff; background: #a8000d; cursor: pointer}
+.nav .leftnav .fenlei em { background: url("../images/icon.gif") no-repeat 0 -143px; width: 9px; height: 5px; display: inline-block; vertical-align: middle; margin-left: 10px;}
+.nav .leftnav .hsh_sort{ position:absolute; top:40px; left:0;background:#fff;display:none}
+.nav .leftnav .hsh_sort{float: left; width: 138px;border-top: 1px solid #dfdfdf; }
+.nav .leftnav .hsh_sort ul li { height: 40px; border-top: 1px solid #fff;border-bottom: 1px solid #dfdfdf; border-left: 1px solid #dfdfdf;border-right: 1px solid #dfdfdf; line-height: 40px; text-align: left;padding-left:18px; color: #333; font-size: 14px; position:relative; }
+.nav .leftnav .hsh_sort ul li em { display: inline-block;width: 16px; height: 18px; overflow: hidden; vertical-align: middle; background: url("../images/icon2.gif") no-repeat; margin-right: 5px;}
+.nav .leftnav .hsh_sort ul li em.tp1{ background-position: 0 0}
+.nav .leftnav .hsh_sort ul li em.tp2{ background-position: 0 -18px}
+.nav .leftnav .hsh_sort ul li em.tp3{ background-position: 0 -36px}
+.nav .leftnav .hsh_sort ul li em.tp4{ background-position: 0 -54px}
+.nav .leftnav .hsh_sort ul li em.tp5{ background-position: 0 -72px}
+.nav .leftnav .hsh_sort ul li em.tp6{ background-position: 0 -90px}
+.nav .leftnav .hsh_sort ul li em.tp7{ background-position: 0 -108px}
+.nav .leftnav .hsh_sort ul li em.tp8{ background-position: 0 -126px}
+.nav .leftnav .hsh_sort ul li em.tp9{ background-position: 0 -144px}
+.nav .leftnav .hsh_sort ul li em.tp10{ background-position: 0 -162px}
+.nav .leftnav .hsh_sort ul li a{ display:block; height:40px;}
+.nav .leftnav .hsh_sort ul li a:hover {text-decoration:none}
+.nav .leftnav .hsh_sort li .item {display:none; line-height:24px; z-index:2}
+.nav .leftnav .hsh_sort li .item a{ height:auto;}
+.nav .leftnav .hsh_sort li.active .item{display:block;}
+.nav .leftnav .hsh_sort li.active {border:1px solid #c00017}
+.nav .leftnav .hsh_sort li.active >a {background:#fff;position:relative;z-index:4;}
+.nav .leftnav .hsh_sort li .item{ position:absolute;left:130px; top:-1px;width:667px; background:#fff;border:1px solid #c00017;padding:20px;overflow:hidden}
+.nav .leftnav .hsh_sort li .item dl {border-bottom:1px dotted #d4d4d4;}
+.nav .leftnav .hsh_sort li .item dl dt {float:left; width:125px; text-align:left;font-weight:bold;font-size:14px; color:#333;padding-top:5px;}
+.nav .leftnav .hsh_sort li .item dl dd {margin-left:125px;  padding:5px 0}
+.nav .leftnav .hsh_sort li .item dl dd a {margin-right:10px; display:inline; white-space:nowrap;}
+.nav .leftnav .hsh_sort li .item .im {width:475px; float:left; display:inline}
+.nav .leftnav .hsh_sort li .item .tuijian {float:right;width:170px;}
+.nav .leftnav .hsh_sort li .item .tuijian a{ display:inline; margin-right:10px; white-space:nowrap;}
+.nav .leftnav .hsh_sort li .item .tuijian span {font-size:14px; font-weight:bold; display:block;}
+.nav .leftnav .focus { zoom:1;padding-top: 10px;width: 690px; margin-left: 10px; float: left;display: inline}
+.nav .leftnav .focus .ft img{ border: 1px solid #ccc;width:690px; height:240px}
+.nav .leftnav .focus .fb{padding-top: 2px}
+.nav .leftnav .focus .fb li{float: left; display: inline; overflow: hidden;width: 230px; height: 160px;}
+.nav .leftnav .focus .fb li img {width:230px;height:160px}
+.nav .leftnav .login{width: 340px; float: right;padding-top:10px; }
+.nav .leftnav .login .lbox { border: 1px solid #d4d4d4}
+.nav .leftnav .login .lbox p{font-size: 18px; color: #a9a9a9; height: 64px; line-height: 64px; text-align: center}
+
+.nav .home  { width: 65px; }
+.nav .home a{ display: block; height: 40px;overflow: hidden;  }
+.nav .home a em {text-indent: -999em; background: url("../images/icon.gif") no-repeat -9px -172px; display: inline-block;width: 21px; height: 18px; vertical-align: middle; margin-top:-4px}
+.nav .navlist a{ text-align: center; display:inline-block; color: #fff;padding:0 20px}
+.nav .shopping {float: right; position: relative;}
+.nav .shopping .bgl { background: url("../images/bg.gif") no-repeat left top; height: 40px;padding-left: 15px}
+.nav .shopping .bgr { background: url("../images/bg.gif") no-repeat right top; height: 40px; text-align: center;padding-right: 15px;}
+.nav .shopping span.simg {background: url("../images/icon.gif") no-repeat 0 -99px; width: 21px; height: 20px; margin-right: 20px; display: inline-block; vertical-align: middle}
+.nav .shopping .number {position: absolute; top:3px; right:65px;font-size: 12px; font-family:"Arial";background: #c00017; border-radius: 5px; border: 1px solid #fff;padding:0 5px; height: 15px; color: #fff; line-height: 15px}
+
+#foot {margin-top:20px; border-top: 4px solid #bbbbbb;padding-top:6px; text-align: center;font-size: 16px; color: #999; line-height: 32px;}
+#foot .info { padding-top: 34px; }
+#foot a{ color: #666}
+#foot .info a{ padding: 0 20px}
+#foot .info a:hover{color: #cc0000}
+#foot .copyright {padding-top: 15px}
+.breadcrumb{ text-align: left; height: 52px; border-bottom: 1px solid #dadada; line-height: 52px; color: #999}
+.breadcrumb a{ color: #333;}
+.breadcrumb a:hover{ color:#cc0000;}
+
+.elevatorBox{ position:absolute; right:10px; bottom:10px; width:60px;}
+.elevatorBox ul{ position:relative;}
+.elevatorBox li{ margin:0px;}
+.elevatorBox a{ display:block; width:60px; height:40px; background:url(../images/elevatorBg.png) no-repeat; margin:0px;}
+.elevatorBox a.keFu{ background-position:0px -100px;}
+.elevatorBox a.keFu:hover{background-position:0px -150px;}
+.elevatorBox a.weibo{ background-position:0px -200px;}
+.elevatorBox a.weibo:hover{ background-position:0px -250px;}
+.elevatorBox a.qr{ background-position:0px -300px;}
+.elevatorBox a.qr:hover{ background-position:0px -350px;}
+.elevatorBox a.top{ background-position:0px 0px; margin-top:10px;}
+.elevatorBox a.top:hover{ background-position:0px -50px;}
+.elevatorBox li.qrBig{ position:absolute; left:-185px; top:-80px; background:url(../images/qrBox.png) no-repeat; width:183px; height:204px;}
+.elevatorBox li.qrBig img{ margin-top:14px;}

@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* CSS Document */
+.NN_list ul{ overflow:hidden; width:1200px;}
+.NN_list ul li{ width:290px; margin-right:10px; margin-bottom:10px;}
+.NN_list ul li img{ border:1px solid #d4d4d4; border-bottom:0px; }
+.NN_list ul li div{ text-align:left; height: 50px; overflow: hidden; line-height: 50px; color: #fff; font-size: 16px; background: #c00017;}
+.NN_list ul li div .NN_title{ width:160px; padding: 10px; height: 30px; overflow: hidden; line-height: 30px; }
+.NN_list ul li div .nn_link{ display: inline-block; width:90px; height:30px;  padding: 10px; background:#ffa628; height: 30px; overflow: hidden; line-height: 30px; text-align:center;}
+.NN_list ul li div .nn_link:hover{ background:#f09c26;}
+.NN_list ul li  h3{ width:268px;border:1px solid #d4d4d4;  padding: 10px; text-align:left; line-height:18px; border-top:0px;}
+.NN_list ul li div .buyed { background-color: #dedede; color: #666;}
+.NN_list ul li div .buyed:hover { background-color: #dedede;}

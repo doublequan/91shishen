@@ -1,0 +1,129 @@
+.search .left {width: 188px; }
+.search .left .box,.search .left .hot {margin-bottom: 10px; border: 1px solid #e0e0e0;overflow: hidden}
+.search .left .column {  text-align: right; height: 38px; line-height: 38px; overflow: hidden; background: #f4f4f4; font-size: 14px; color: #999;padding: 0 13px;border-bottom: 1px solid #e0e0e0}
+.search .left .column span {float: left; font-size: 18px; color: #666}
+.search .left .box ul li {height:44px; line-height: 44px; text-align: right;border-bottom: 1px dotted #b4b4b4; color: #000; font-size: 14px; overflow: hidden;width: 170px; margin: 0 auto -1px}
+.search .left .box ul li span { float: left;}
+
+
+.search .left .hot ul li {width: 170px;  overflow: hidden; line-height: 22px; text-align: center; margin: 10px auto -1px;padding-bottom: 10px; text-align: left;border-bottom: 1px dotted #b4b4b4;}
+.search .left .hot ul li img{border:1px solid #e0e0e0; margin-bottom: 5px;}
+.search .left .hot ul li em{color: #ee3c3c; font-weight: bold; font-family: "arial"}
+.search .left .hot ul li a:hover { text-decoration: none}
+.search .left .hot ul li a:hover img {border:1px solid #ee3c3c; }
+.search .sbox { margin-left: 200px; overflow: hidden; text-align: left; line-height: 44px;  font-size: 12px; color: #999;}
+.search .sbox .t { background: #f4f4f4; height: 38px; line-height: 38px; padding: 0 15px;border-bottom:1px solid #e0e0e0; }
+.search .sbox .t span { color: #000}
+.search .sbox dl {width: 958px; margin: 0 auto -1px; border-bottom: 1px dotted #b0b0b0 }
+.search .sbox dl dt {float: left; width: 70px;}
+.search .sbox dl dd { margin-left: 70px; overflow: hidden; }
+.search .sbox dl dd a.s { display: inline-block; height: 22px; line-height: 22px; border: 1px solid #ededed;padding: 0 5px 0 5px}
+.search .sbox dl dd a.s:hover {color: #c00017; border: 1px solid #c00017; text-decoration: none}
+.search .sbox dl dd a.s em { margin-left: 5px; margin-top:-2px;}
+.search .sbox dl dd a{ margin-right: 10px;}
+.search .sbox dl dd.last{padding:10px 0;line-height: 24px}
+.search .sbox .top{border:1px solid #e0e0e0;}
+
+ul.merlist {}
+ul.merlist li{margin: 10px 10px 0 0; width: 215px; float: left;display: inline; overflow: hidden; text-align: left}
+ul.merlist li a{ text-decoration: none}
+ul.merlist li a:hover h2{ color: #ee3c3c}
+ul.merlist li a:hover p{ color: #ee3c3c}
+ul.merlist li a:hover img {border: 1px solid #ee3c3c; }
+ul.merlist li img {border: 1px solid #e7e7e7; display: block; margin: 0 auto 3px;}
+ul.merlist h2 {font-family: "\9ED1\4F53"; font-size: 18px; height: 30px; line-height: 30px; color: #333}
+ul.merlist p.txt { line-height: 18px; color:#8d8d8d }
+ul.merlist p.prices {padding-top: 10px}
+ul.merlist p.prices em {font-family:"Arial"; font-weight: bold; font-size: 22px; color: #ee3c3c}
+.search .sbox .fb { overflow: hidden}
+.search .sbox .fb ul.merlist {width: 1000px;}
+.search .sbox .fb ul.merlist li {width: 240px}
+.search .sort { height: 40px;line-height: 40px; text-align: left; color: #999; font-size: 14px; background: #f4f4f4; overflow: hidden;padding:0 10px}
+.search .sort .tp { height: 40px; float: left; display: inline}
+.search .sort .tp em { display: inline-block; margin-left: 4px;width: 10px; height: 9px; overflow: hidden;vertical-align: middle; background: url("../images/icon.gif") no-repeat; margin-right: 15px;}
+.search .sort .tp em.gray_up { background-position: 0 -462px}
+.search .sort .tp em.gray_down { background-position: 0 -453px}
+.search .sort .tp em.org_up { background-position: -10px -462px}
+.search .sort .tp em.org_down { background-position: -10px -453px}
+
+.search .sort .tp em.org_up2 { background-position: -20px -453px}
+.search .sort .tp em.org_down2 { background-position: -20px -453px}
+.search .sort .tp em.gray_2 { background-position: -20px -462px}
+.mypage{text-align: right; font-size: 14px; font-family: "\5B8B\4F53"; color: #4d4d4d;padding:10px 0; font-size: 14px;}
+.mypage a{color: #4d4d4d; margin-left: 10px;display: inline-block; vertical-align: middle;height: 28px; line-height: 28px;}
+.mypage a:hover{color: #cc0000; }
+.mypage .page_number.cur{width:28px; background: #eaeaea;border-radius: 14px; text-align: center }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

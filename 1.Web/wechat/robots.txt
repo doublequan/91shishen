@@ -1,0 +1,4 @@
+# robots.txt
+# website: http://wechat.100hl.com
+User-agent: *
+Disallow: /

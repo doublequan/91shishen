@@ -1,0 +1,215 @@
+.Ucenter {text-align: left;}
+.Ucenter .leftnav {width: 190px; float: left;display: inline; border: 1px solid #d4d4d4; }
+.myintro .title{ background: #f4f4f4; height: 38px; line-height: 38px; color: #c00017;padding: 0 15px;font-size: 14px; font-weight: bold;border-bottom: 1px solid #d4d4d4}
+.myintro .title em{font-size: 12px; color: #999; margin-left: 5px; }
+.myintro .my {padding:15px;}
+.myintro .my img {float:left;}
+.myintro .my .link { margin-left: 75px; line-height: 24px;}
+.myintro .my .link a { display: block; margin-bottom: 10px; text-decoration: underline}
+.Ucenter .leftnav dt { background: #f4f4f4; height: 38px; line-height: 38px; color: #000;padding: 0 15px;font-size: 14px; font-weight: bold;border-bottom: 1px solid #d4d4d4;border-top: 1px solid #d4d4d4}
+.Ucenter .leftnav dd {padding: 5px 15px; font-size: 14px; color: #000; zoom:1;overflow:hidden}
+.Ucenter .leftnav dd ul { overflow: hidden;zoom:1; }
+.Ucenter .leftnav dd ul li { height: 42px; line-height: 42px;  border-bottom: 1px dotted #d4d4d4; margin-bottom: -1px; overflow: hidden; zoom:1}
+.Ucenter .leftnav dd li a{color: #000; display: block; zoom:1}
+.Ucenter .leftnav dd li a:hover{color: #cc0000}
+.Ucenter .leftnav dd li.cur { color: #ffa628; font-weight: bold}
+.Ucenter .leftnav dd li.cur span{float: right; }
+.mylist { margin-left: 200px;}
+.mylist .title {height: 40px; line-height: 40px; font-size: 14px; font-weight: bold; color: #000; border-bottom: 2px solid #f5f5f5; margin-bottom: 15px;}
+.mylist .title span {float:right; font-size: 12px; font-family: "\5B8B\4F53";font-weight: 100}
+.personal{padding:12px 0;border: 1px solid #d4d4d4;height: 105px; overflow: hidden}
+.personal table {width: 100%; border-collapse: collapse; border-spacing: 0; margin-left: -1px;}
+.personal td{ border-left: 1px solid #d4d4d4; text-align: center; height: 105px; font-size: 12px; line-height: 22px;width: 25%;vertical-align: middle }
+.personal b { font-weight: bold; font-size: 14px;}
+.msg { background: #fffae1; height: 40px; line-height: 40px; color: #6b6b6b;padding:0 15px;}
+.msg a{ color: #333; margin-right: 15px;}
+.msg a:hover{ color: #cc0000}
+
+.sp_list table {width: 100%; border-collapse: collapse; border-spacing: 0; font-size: 14px; border:1px solid #d4d4d4 }
+.sp_list th{text-align: center;line-height: 22px; background: #e8e8e8; font-weight: bold;padding:5px; border: 1px solid #d7d7d7}
+.sp_list th.thA{width: 475px}
+.sp_list th.thB{width: 170px}
+.sp_list th.thC{width: 160px}
+.sp_list .dd { background: #f4f4f4; height: 40px; line-height: 40px;padding:0 15px}
+.sp_list .dd .t { float: right;}
+.sp_list .tp {padding:10px; overflow: hidden; text-align: left}
+.sp_list .tp img{ margin-right: 10px;border:1px solid #f4f4f4}
+.sp_list .tp a:hover img{ border: 1px solid #d3d3d3}
+.sp_list tr.bd td{border-left:1px solid #d4d4d4; background: #fff; text-align: center; font-size: 14px;}
+.sp_list tr.bd td.lh16 { line-height: 38px}
+.mypage{text-align: right; font-size: 14px; font-family: "\5B8B\4F53"; color: #4d4d4d;padding:10px 0; font-size: 14px;}
+.mypage a{color: #4d4d4d; margin-left: 10px;display: inline-block; vertical-align: middle;height: 28px; line-height: 28px;}
+.mypage a:hover{color: #cc0000; }
+.mypage .page_number.cur{width:28px; background: #eaeaea;border-radius: 14px; text-align: center }
+
+.myhistory .title{ height: 40px; line-height: 40px; font-size: 14px; font-weight: bold; color: #000; border-bottom: 2px solid #f5f5f5; margin-bottom: 15px; }
+.myhistory .history {position: relative;}
+.myhistory .history a.prev,.myhistory .history a.next{ position: absolute;width: 40px; height: 90px; background:#f2f2f2; z-index: 2;top:45px}
+.myhistory .history a.prev em,.myhistory .history a.next em { display: block; height: 22px; margin-top: 35px;text-indent: -99em; overflow: hidden; background: url("../images/icon.gif") no-repeat;}
+.myhistory .history a.prev {left:0}
+.myhistory .history a.prev em { background-position: 0 -219px ;}
+.myhistory .history a.prev:hover em { background-position: 0 -242px ;}
+.myhistory .history a.next {right:0}
+.myhistory .history a.next em { background-position: 0 -264px ;}
+.myhistory .history a.next:hover em { background-position: 0 -286px ;}
+
+.myhistory .sbox{width: 890px; margin: 0 auto; overflow: hidden}
+.myhistory .sbox ul {width: 105%;}
+.myhistory .sbox ul li {width: 170px; margin-right: 10px;float: left; display: inline; overflow: hidden; line-height: 22px;}
+.myhistory .sbox ul li img{border:1px solid #e0e0e0; margin-bottom: 5px;}
+.myhistory .sbox ul li em{color: #ee3c3c; font-weight: bold; font-family: "arial"}
+
+.address table {width: 100%; border-collapse: collapse; border-spacing: 0; font-size: 14px; border:1px solid #d4d4d4; color: #6b6b6b; line-height: 20px;}
+.address table td {padding:20px;border:1px solid #d4d4d4;}
+.address table td.w180 {width: 180px; text-align: center;}
+.address table td .edit a.btn{ height: 28px; width: 130px; margin: 5px auto 0; font-size:14px; text-align: center;border-radius: 3px; background: #4c4c4c; display: block; color: #fff; line-height: 28px}
+.address table td .edit a.btn.default{ background: none; color: #999}
+.address .add { background: #f4f4f4; padding: 22px;}
+.address .add ul li {padding-bottom: 15px; height:30px; line-height: 30px; }
+.address .add ul li label{ float:left; width: 85px; text-align: right;padding-right: 10px;}
+.address .add ul li input { height: 26px; padding: 2px 5px; border: 1px solid #d4d4d4;width:140px;}
+.address .add ul li input.name {width:240px; }
+.address .add ul li input.dq {width:380px; }
+.address .add ul li select {height: 32px; padding: 2px 5px; border: 1px solid #d4d4d4;width:140px; vertical-align: middle; color:#666}
+.address .add ul li span { margin-left: 15px; background: url("../images/icon.gif") no-repeat 0 -325px;padding-left: 15px;zoom:1; color: #999}
+.address .add ul li input.tj {border: none; width: 78px; background: #4c4c4c; color: #fff; margin-left:95px; cursor: pointer; border-radius: 3px}
+
+.favorite .flist table{width: 100%; border-collapse: collapse; border-spacing: 0; font-size: 14px; border:1px solid #d4d4d4; color: #6b6b6b; line-height: 20px;}
+.favorite .flist td {padding:20px;border:1px solid #d4d4d4; text-align: center;vertical-align: middle;border: 1px solid #d4d4d4;font-size: 14px;}
+.favorite .flist th{text-align: center; height: 38px; line-height: 38px; background: #e8e8e8; border: 1px solid #d4d4d4;vertical-align: middle;}
+.favorite .flist th.thA{text-align: left;padding-left: 5px}
+.favorite .flist td.tdA{width: 65px;padding:0; }
+.favorite .flist td.tdB{width: 410px; text-align: left;  }
+.favorite .flist td.tdB .pt div{float:left; margin-right: 15px;}
+.favorite .flist td.tdB .pt div img{border:1px solid #f4f4f4}
+.favorite .flist td.tdB .pt a:hover img{ border: 1px solid #d3d3d3}
+.favorite .flist td.tdB .pt h2{ font-size: 14px;}
+.favorite .flist td.tdC{width: 100px; }
+.favorite .flist td.tdD{width: 120px; }
+.favorite .flist td.tdE{ line-height: 38px }
+
+.ticket .t_tab{ height: 41px;border-bottom:1px solid #d4d4d4;}
+.ticket .t_tab ul li{ float: left; display: inline; width:125px; border:1px solid #fff;border-bottom-color: #d4d4d4; text-align: center; height: 40px; line-height: 40px; color:#000;font-size: 12px}
+.ticket .t_tab ul li.cur{border:1px solid #d4d4d4;border-bottom-color: #fff; font-weight: bold }
+.ticket .contA table{width: 100%; border-collapse: collapse; border-spacing: 0; font-size: 14px; border:1px solid #d4d4d4; color: #6b6b6b; line-height: 20px;}
+.ticket .contA th { height: 40px; text-align: center; background: #f4f4f4;border: 1px solid #d4d4d4; font-size: 14px; font-weight: bold}
+.ticket .contA td { text-align: center; font-size: 14px;padding:20px;border: 1px solid #d4d4d4;}
+.ticket .contA td.tdA{width:180px }
+.ticket .contA td.tdB{width:120px; text-align: left }
+.ticket .contA td.tdC{width:80px }
+.ticket .contA td.tdD{width:170px }
+.ticket .contA td.tdE{width:80px }
+.ticket .contA td.tdG{width:85px }
+.ticket .contA td.tdF{ line-height: 26px}
+
+.myinfo .info{padding-top: 15px}
+.myinfo .info .left {padding: 0 30px; text-align: center}
+.myinfo .info .left img{ display: block; margin-bottom: 15px;}
+.myinfo .info .left a{ text-decoration: underline}
+.myinfo .info .center { width: 710px; border-left: 1px solid #d4d4d4;padding-left:20px; padding-bottom: 20px}
+.myinfo .info .center ul li { height: 30px;padding-bottom: 25px; font-size: 14px; color: #999}
+.myinfo .info .center ul li input.tpa { height: 24px; padding: 2px 5px; border: 1px solid #d4d4d4;width: 195px; vertical-align: middle }
+.myinfo .info .center ul li input.ra {margin: -2px 2px 0 0}
+.myinfo .info .center ul li label {width: 85px; float: left; text-align: right;padding-right:10px; line-height: 30px;}
+.myinfo .info .center ul li input.tpb {margin-left: 95px; width: 78px; height: 30px; line-height: 30px; border-radius: 2px; background: #4c4c4c; color: #fff; border: 1px solid #4c4c4c; cursor: pointer;font-size: 14px;}
+
+
+.password .pass{ width: 340px; margin: 0 auto; padding-top: 80px}
+.password .pass ul li {height: 30px;padding-bottom: 10px; font-size: 14px; color: #999}
+.password .pass ul li input { height: 24px; padding: 2px 5px; border: 1px solid #d4d4d4;width: 195px; vertical-align: middle }
+.password .pass ul li label {width: 85px; float: left; text-align: right;padding-right:10px;}
+.password .pass ul li input.tpb {margin-left: 95px; width: 78px; height: 30px; line-height: 30px; border-radius: 2px; background: #4c4c4c; color: #fff; border: 1px solid #4c4c4c; cursor: pointer; font-size: 14px;}
+
+.mail .mailbox{ width: 320px; margin: 0 auto; padding-top: 80px}
+.mail .mailbox ul li {height: 30px;padding-bottom: 15px; font-size: 14px; color: #999}
+.mail .mailbox ul li input { height: 24px; padding: 2px 5px; border: 1px solid #d4d4d4;width: 195px; vertical-align: middle }
+.mail .mailbox ul li label {width: 85px; float: left; text-align: right;padding-right:10px; line-height: 30px;}
+.mail .mailbox ul li input.tpb {margin-left: 95px; width: 78px; height: 30px; line-height: 30px; border-radius: 3px; background: #4c4c4c; color: #fff; border: 1px solid #4c4c4c; cursor: pointer; font-size: 14px;}
+.mail .mail_tip { padding:15px; line-height: 22px; background: #f5f5f5; color: #262626; margin-top: 50px; border-radius: 5px}
+
+.mysafe .sbox{ border: 1px solid #d4d4d4;padding:10px 30px; overflow: hidden; zoom:1}
+.mysafe .sbox dl {border-bottom: 1px solid #d4d4d4; height: 30px; overflow: hidden; padding: 30px 0 35px; line-height:30px;overflow: hidden; zoom:1;}
+.mysafe .sbox dt em{ width: 31px;height: 30px; display: inline-block; vertical-align: middle; background: url("../images/icon.gif") no-repeat; margin-right: 20px;}
+.mysafe .sbox dt em.true{ background-position: 0 -376px}
+.mysafe .sbox dt em.false{ background-position: 0 -344px}
+.mysafe .sbox dt { font-size: 24px; color: #666; width: 250px;float: left; display: inline}
+.mysafe .sbox dd.da {width: 560px;float: left; display: inline}
+.mysafe .sbox dd.db {width: 80px; text-align: center;float: right; display: inline}
+.mysafe .sbox dd.db a{ background: #4c4c4c; height: 28px; line-height: 28px; margin: 5px auto 0; color: #fff; display: block; border-radius: 5px;font-size: 14px;}
+.mysafe .sbox .tip{ padding: 20px 0 10px; line-height: 22px;}
+
+.vip_tit { height: 40px; text-align: left; line-height: 30px; font-size: 14px;color: #999}
+.vip_tit span {float:right; text-align: right }
+.vip th.thA{width: 305px; }
+.vip th.thB{width: 130px;}
+.vip .vip_date{ padding: 0 20px}
+.vip th.thC{width: 130px;}
+.vip th.thD{width: 130px;}
+.vip td { height: 80px; border: 1px solid #d4d4d4}
+.vip th{ line-height: 28px}
+.viplist th.thA{width: 40px; }
+.viplist th.thB{width: 175px;}
+.viplist .vip_date{ padding: 0 20px}
+.viplist th.thC{width: 240px;}
+.viplist th.thE{width: 130px;}
+.viplist th.thF{width: 130px;}
+.viplist th.thG{width: 130px;}
+.viplist td { height: 110px; border: 1px solid #d4d4d4; text-align: center; font-size: 14px;}
+.viplist .text { text-align: left;padding: 0 10px;}
+.viplist th{ line-height: 28px}
+.viplist .num em.tp1,.viplist .num em.tp2 { color: #333; font-size: 12px; width: 22px; height: 24px; display: inline-block; overflow: hidden; text-align: center; border: 1px solid #d4d4d4; margin-right: 5px; vertical-align: middle; cursor: pointer; line-height: 24px;}
+.viplist .num .count{ height: 24px; width: 42px; border: 1px solid #d4d4d4; margin-right: 5px; text-align: center;}
+.viplist td .add{ background: #4C4C4C; color: #fff; border-radius: 5px; display: inline-block; height: 28px; line-height: 28px; vertical-align: middle;padding:0 10px; margin: 0 3px;}
+.viplist td .red{ background: #C00017; color: #fff; border-radius: 5px; display: inline-block; height: 28px; line-height: 28px; vertical-align: middle;padding:0 10px; margin: 0 3px;margin-top:2px;padding-left: 16px;padding-right: 16px;}
+.viplist td .add:hover { text-decoration: none; color: #e1dfdf}
+.vipdz th.thA{width: 50px; }
+.vipdz th.thB {width: auto}
+.vipdz td { height: 65px; border: 1px solid #d4d4d4; text-align: center; font-size: 14px;}
+.vipdz input {border:1px solid #d4d4d4; height: 22px;line-height: 20px; padding: 3px 5px}
+.vipdz input.tpA{ width: 250px;}
+.vipdz input.tpB{ width: 50px; text-align:center;}
+.vipdz input.tpC{ width: 420px;}
+.dz_tip{ height:50px; text-align: left; line-height: 50px;font-size: 14px; color: #262626; font-weight: bold;}
+.vip_dz input.tpb, .vip_dz input.tpb2 { width: 78px; height: 30px; border-radius: 2px; background: #4c4c4c; color: #fff; border: 1px solid #4c4c4c; cursor: pointer; font-size: 14px;}
+.vip_dz input.tpb2 { margin-left:20px;}
+.submit{ margin:30px auto;}
+
+.nav2{ background: #c00017; height: 40px; line-height: 40px;color: #fff; font-size: 14px; }
+.nav2 .area {position: relative; text-align: left;}
+.nav2 a{ text-align: center; display:inline-block; color: #fff;padding:0 40px}
+.nav2 a:hover,.nav2 a.cur{ background: #a8000d; text-decoration: none}
+
+.vip_all{ text-align: left;}
+.vip_all .vtop{ height: 38px; line-height: 38px; background: #f4f4f4; border: 1px solid #ebebeb; font-size: 14px; color: #333;padding-left: 18px; }
+.vip_all .v_nav { border: 1px solid #ebebeb;padding:0 17px;overflow: hidden}
+.vip_all .v_nav li {font-size: 12px; border-bottom: 1px dotted #7e7e7e; height: 44px; line-height: 44px; margin-bottom: -1px;}
+.vip_all .v_nav li span {  color: #333; float: left; margin-right: 10px;width: 75px;}
+.vip_all .v_nav li a{ color: #000; margin-right: 10px;}
+.vip_all .vip_order { height: 48px; font-size: 14px; color: #666; line-height: 48px;}
+.vip_all .vip_order input { height: 20px; padding: 3px 5px;border: 1px solid #d4d4d4; text-align:center; margin: 0 4px;width: 42px;vertical-align: middle; outline: none}
+.vip_all .vip_order .btn { background: #4c4c4c; color: #fff; border-radius: 5px; display: inline-block; height: 28px; line-height: 28px; vertical-align: middle;padding:0 10px; margin: 0 3px;}
+.vip_all .vip_order .btn:hover { text-decoration: none; color: #e1dfdf}
+.vip_all .vip_order a{ margin-left: 15px;}
+
+.dzhistory { text-align: left;}
+.dzhistory table {width: 100%; border-collapse: collapse; border-spacing: 0; font-size: 14px; border:1px solid #d4d4d4 }
+.dzhistory th {text-align: center;line-height: 22px; background: #e8e8e8; font-weight: bold;padding:5px; border: 1px solid #d7d7d7}
+.dzhistory td{ line-height:30px; height:50px;border: 1px solid #d4d4d4; text-align: center; font-size: 14px; color: #333}
+.dzhistory th.tpA {width: 228px;}
+.dzhistory td.tpB {padding-left: 15px; text-align: left;}
+
+.vip_refund{ height: 41px;border-bottom:1px solid #d4d4d4;}
+.vip_refund ul li{ float: left; display: inline; width:125px; border:1px solid #fff;border-bottom-color: #d4d4d4; text-align: center; height: 40px; line-height: 40px; color:#000;font-size: 12px}
+.vip_refund ul li.cur{border:1px solid #d4d4d4;border-bottom-color: #fff; font-weight: bold }
+
+.vip_rb {width: 470px; margin: 65px auto 0; text-align: left; font-size: 12px; color:#999;}
+.vip_rb li { height: 26px; line-height: 26px;padding-bottom: 18px;}
+.vip_rb li span { float: left; display: inline; width: 80px; padding-right: 10px; text-align: right; height: 26px; line-height: 26px;color: #262626}
+.vip_rb li input.text { height: 22px; padding: 2px 5px; font-size: 12px; border: 1px solid #d4d4d4; width: 170px;}
+.vip_rb li textarea{ width: 350px; height: 100px; text-align: left; line-height: 22px; padding: 10px;border: 1px solid #d4d4d4; resize: none; outline: none}
+.vip_rb li.ha{ height: auto}
+.vip_rb a.btn{cursor: pointer;background: #4c4c4c; color: #fff; border-radius: 5px; display: inline-block; height: 28px; line-height: 28px; vertical-align: middle;padding:0 20px; margin: 0 3px; margin-left: 90px }
+.vip_rb a.btn:hover { text-decoration: none; color: #e1dfdf;}
+
+
+
